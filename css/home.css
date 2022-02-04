@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #dcdcdc;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+}
+
+.nav-title {
+    margin-left: 6rem;
+}
+
+.search-box {
+    height: 2.8rem;
+    width: 50%;
+    margin-top: 0;
+}
+
+.title,
+.cart-button,
+.menu-icon {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-search {
+    margin: 0 30rem 0 40rem;
+}
+
+.nav-footerone {
+    margin-left: auto;
+    margin-right: 6rem;
+}
+
+.product-line {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5rem 6rem 2rem 6rem;
+}
+
+.display-image {
+    position: relative;
+}
+
+.book-type {
+    height: 20rem;
+    width: 25rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.centered {
+    position: absolute;
+    left: 50%;
+    color: black;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+}
+
+.baner {
+    margin: 5rem 6rem 2rem 6rem;
+}
+
+.baner-image {
+    height: 60rem;
+    width: 100%;
+}
+
+.footer-card {
+    margin: 5rem 6rem 5rem 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.book-card {
+    margin-top: 2rem;
+}
+
+.sub-head,
+.description {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.footer-center {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-center i {
+    font-size: 5rem;
+    padding-left: 2rem;
+}
+
+.icon {
+    color: black;
+}
+
+@media only screen and (max-width: 930px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    html {
+        font-size: 45%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 40%;
+    }
+}
