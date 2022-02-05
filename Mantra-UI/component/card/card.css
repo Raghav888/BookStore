@@ -35,6 +35,7 @@
 }
 
 .mantra-discount {
+    margin-top: 2rem;
     font-size: var(--txt-md);
     font-weight: bold;
 }
@@ -50,6 +51,10 @@
     margin-left: var(--margin-left-md);
 }
 
+.mantra-price-box {
+    margin: 1rem 0;
+}
+
 
 /* Vertical Card */
 
@@ -57,17 +62,17 @@
     position: relative;
     max-width: var(--card-vert-width-max);
     height: auto;
-    padding: var(--padding-lg);
+    padding: 3rem;
     box-sizing: border-box;
-    background-color: var(--secondary-color);
+    background-color: var(--txt-primary);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow-card);
 }
 
 .mantra-close-icon {
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 2px;
+    right: 2px;
     margin-right: 0px;
     padding-top: 0px;
     font-size: var(--txt-lg);
@@ -123,4 +128,13 @@
     padding: var(--padding-lg);
     background-color: var(--secondary-color);
     border-radius: var(--border-radius);
+}
+
+.mantra-card-holder-text-content {
+    font-size: 1.2rem;
+}
+
+.mantra-card-holder-text-content h2,
+.mantra-card-holder-text-content h3 {
+    margin-top: 1rem;
 }

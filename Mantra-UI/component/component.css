@@ -5,6 +5,8 @@
 @import url(../component/card/card.css);
 @import url(../component/image/image.css);
 @import url(../component/input/input.css);
+@import url(../component/navbar/navbar.css);
+@import url(../component/Footer/footer.css);
 :root {
     /* Padding Size */
     --padding-sm: 0.5rem;
@@ -85,7 +87,7 @@
     --max-width-img: 12rem;
     --margin-top-btn: 6px;
     --height-img: 100%;
-    --card-vert-width-max: 14rem;
+    --card-vert-width-max: 22rem;
     --margin-card-badge: 2rem 0px 0px 0.7rem;
     --text-overlay-top: 50%;
     --text-overlay-left: 30%;

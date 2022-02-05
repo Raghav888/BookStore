@@ -8,41 +8,8 @@ html {
     background-color: #dcdcdc;
 }
 
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: white;
-    padding: 1rem;
-}
 
-.nav-title {
-    margin-left: 6rem;
-}
-
-.search-box {
-    height: 2.8rem;
-    width: 50%;
-    margin-top: 0;
-}
-
-.title,
-.cart-button,
-.menu-icon {
-    text-decoration: none;
-    color: black;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.nav-search {
-    margin: 0 30rem 0 40rem;
-}
-
-.nav-footerone {
-    margin-left: auto;
-    margin-right: 6rem;
-}
+/* Below nav */
 
 .product-line {
     margin-top: 2rem;
@@ -70,6 +37,9 @@ nav {
     font-size: 2rem;
 }
 
+
+/* Baner */
+
 .baner {
     margin: 5rem 6rem 2rem 6rem;
 }
@@ -94,20 +64,6 @@ nav {
 .description {
     padding-top: 2rem;
     font-size: 1.5rem;
-}
-
-.footer-center {
-    display: flex;
-    justify-content: center;
-}
-
-.footer-center i {
-    font-size: 5rem;
-    padding-left: 2rem;
-}
-
-.icon {
-    color: black;
 }
 
 @media only screen and (max-width: 930px) {
