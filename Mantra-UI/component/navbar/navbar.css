@@ -1,0 +1,35 @@
+.mantra-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+}
+
+.mantra-nav-title {
+    margin-left: 6rem;
+}
+
+.mantra-title,
+.mantra-cart-button,
+.mantra-menu-icon {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.mantra-search-box {
+    height: 2.8rem;
+    width: 50%;
+    margin-top: 0;
+}
+
+.mantra-nav-search {
+    margin: 0 30rem 0 40rem;
+}
+
+.mantra-nav-footer {
+    margin-left: auto;
+    margin-right: 6rem;
+}

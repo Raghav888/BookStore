@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookStore Product</title>
+    <link rel="stylesheet" href="../Mantra-UI/component/component.css" />
+    <link rel="stylesheet" href="../css/product-list.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <nav class="mantra-nav">
+        <div class="mantra-nav-title">
+            <a class="mantra-title" href="../index.html"> BookStore </a>
+        </div>
+        <div class="mantra-nav-search">
+            <input class="mantra-search-box mantra-textbox-classic mantra-highlight-box" placeholder="  Search" type="text " />
+            <button class="mantra-button mantra-primary-btn">
+          <i class="fa fa-search"></i> Search
+        </button>
+        </div>
+        <button class="mantra-button mantra-primary-btn login-btn">Login</button>
+
+        <div class="mantra-nav-footer">
+            <div class="mantra-badge">
+                <a class="mantra-menu-icon" href="#">
+                    <span class="mantra-icon">
+              <i class="fa fa-heart"></i>
+              <span class="mantra-count">0</span>
+                    </span>
+                </a>
+                <a class="mantra-menu-icon" href="#">
+                    <span class="mantra-icon">
+              <i class="fa fa-shopping-cart"></i>
+              <span class="mantra-count">0</span>
+                    </span>
+                    <span class="mantra-cart-button">Cart</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Box -->
+    <div class="main-box">
+        <!-- Side Bar -->
+        <div class="side-bar">
+            <div class="filter-title">
+                <h3>Filter</h3>
+                <a href="#" class="clear-filter">Clear</a>
+            </div>
+            <div class="category-head">
+                <h3>Category</h3>
+            </div>
+            <div class="category-sub">
+                <form>
+                    <div class="book-filter">
+                        <a href="#">
+                            <input type="checkbox" id="love" />
+                            <label for="love">Love Story</label>
+                        </a>
+                    </div>
+
+                    <div class="book-filter">
+                        <a href="#">
+                            <input type="checkbox" id="comedy" />
+                            <label for="comedy">Comedy</label>
+                        </a>
+                    </div>
+                    <div class="book-filter">
+                        <a href="#">
+                            <input type="checkbox" id="novel" />
+                            <label for="novel">Novel</label>
+                        </a>
+                    </div>
+                </form>
+            </div>
+            <!-- Price -->
+            <div class="category-head">
+                <h3>Price</h3>
+            </div>
+            <div class="min-max">
+                <small>Min</small>
+                <small>Max</small>
+            </div>
+            <div class="input-box">
+                <input class="mantra-textbox-classic mantra-highlight-box" placeholder=" $499" />
+                <p>_</p>
+                <input class="mantra-textbox-classic mantra-highlight-box" placeholder=" $499" />
+            </div>
+
+            <!-- Filter by Rating -->
+            <div class="category-head">
+                <h3>Ratings</h3>
+            </div>
+            <div class="category-sub">
+                <div class="rating-filter">
+                    <a href="#">
+                        <input type="radio" id="star4" name="star" />
+                        <label for="star4">4 Stars & above</label></a>
+                </div>
+                <div class="rating-filter">
+                    <a href="#">
+                        <input type="radio" id="star3" name="star" />
+                        <label for="star3">3 Stars & above</label>
+                    </a>
+                </div>
+                <div class="rating-filter">
+                    <a href="#">
+                        <input type="radio" id="star2" name="star" />
+                        <label for="star2">2 Stars & above</label>
+                    </a>
+                </div>
+                <div class="rating-filter">
+                    <a href="#">
+                        <input type="radio" id="star1" name="star" />
+                        <label for="star1">1 Stars & above</label>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sort by price -->
+            <div class="category-head">
+                <h3>Sort by</h3>
+            </div>
+
+            <div class="category-sub">
+                <div class="price-sort">
+                    <a href="#">
+                        <input type="radio" id="sort-high" name="sort" />
+                        <label for="sort-high">Price: Low to High</label></a>
+                </div>
+                <div class="price-sort">
+                    <a href="#">
+                        <input type="radio" id="sort-low" name="sort" />
+                        <label for="sort-low">Price: High to Low</label>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Product listing -->
+        <div class="product-page">
+            <div class="product-page-title">
+                <h3>Showing All Products</h3>
+            </div>
+            <!-- Listing -->
+            <div class="book-card-holder">
+                <div class="mantra-vertical-card">
+                    <div class="mantra-icon mantra-close-icon">
+                        <i class="fas fa-heart-circle" id="wishlist"></i>
+                    </div>
+                    <div class="mantra-card-holder-image-v">
+                        <img class="mantra-vert-image" src="../assets/lighthouse.jpg" />
+                    </div>
+                    <div class="mantra-card-holder-text-vert">
+                        <div class="mantra-card-holder-text-content">
+                            <h2>I Came Upon a Lighthouse</h2>
+                            <h3>A Short Memoir of Life with Ratan Tata</h3>
+                            <div class="mantra-price-box">
+                                <span class="mantra-discount">Rs.300</span>
+                                <span class="mantra-original">Rs.400</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mantra-card-btn">
+                        <button class="mantra-button mantra-primary-btn">
+                Add to cart
+              </button>
+                    </div>
+                </div>
+
+                <div class="mantra-vertical-card">
+                    <div class="mantra-icon mantra-close-icon">
+                        <i class="fas fa-heart-circle"></i>
+                    </div>
+                    <div class="mantra-card-holder-image-v">
+                        <img class="mantra-vert-image" src="../assets/lighthouse.jpg" />
+                    </div>
+                    <div class="mantra-card-holder-text-vert">
+                        <div class="mantra-card-holder-text-content">
+                            <h2>I Came Upon a Lighthouse</h2>
+                            <h3>A Short Memoir of Life with Ratan Tata</h3>
+                            <div class="mantra-price-box">
+                                <span class="mantra-discount">Rs.300</span>
+                                <span class="mantra-original">Rs.400</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mantra-card-btn">
+                        <button class="mantra-button mantra-primary-btn">
+                Add to cart
+              </button>
+                    </div>
+                </div>
+
+                <div class="mantra-vertical-card">
+                    <div class="mantra-icon mantra-close-icon">
+                        <i class="fas fa-heart-circle"></i>
+                    </div>
+                    <div class="mantra-card-holder-image-v">
+                        <img class="mantra-vert-image" src="../assets/lighthouse.jpg" />
+                    </div>
+                    <div class="mantra-card-holder-text-vert">
+                        <div class="mantra-card-holder-text-content">
+                            <h2>I Came Upon a Lighthouse</h2>
+                            <h3>A Short Memoir of Life with Ratan Tata</h3>
+                            <div class="mantra-price-box">
+                                <span class="mantra-discount">Rs.300</span>
+                                <span class="mantra-original">Rs.400</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mantra-card-btn">
+                        <button class="mantra-button mantra-primary-btn">
+                Add to cart
+              </button>
+                    </div>
+                </div>
+
+                <div class="mantra-vertical-card">
+                    <div class="mantra-icon mantra-close-icon">
+                        <i class="fas fa-heart-circle"></i>
+                    </div>
+                    <div class="mantra-card-holder-image-v">
+                        <img class="mantra-vert-image" src="../assets/lighthouse.jpg" />
+                    </div>
+                    <div class="mantra-card-holder-text-vert">
+                        <div class="mantra-card-holder-text-content">
+                            <h2>I Came Upon a Lighthouse</h2>
+                            <h3>A Short Memoir of Life with Ratan Tata</h3>
+                            <div class="mantra-price-box">
+                                <span class="mantra-discount">Rs.300</span>
+                                <span class="mantra-original">Rs.400</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mantra-card-btn">
+                        <button class="mantra-button mantra-primary-btn">
+                Add to cart
+              </button>
+                    </div>
+                </div>
+
+                <div class="mantra-vertical-card">
+                    <div class="mantra-icon mantra-close-icon">
+                        <i class="fas fa-heart-circle"></i>
+                    </div>
+                    <div class="mantra-card-holder-image-v">
+                        <img class="mantra-vert-image" src="../assets/lighthouse.jpg" />
+                    </div>
+                    <div class="mantra-card-holder-text-vert">
+                        <div class="mantra-card-holder-text-content">
+                            <h2>I Came Upon a Lighthouse</h2>
+                            <h3>A Short Memoir of Life with Ratan Tata</h3>
+                            <div class="mantra-price-box">
+                                <span class="mantra-discount">Rs.300</span>
+                                <span class="mantra-original">Rs.400</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mantra-card-btn">
+                        <button class="mantra-button mantra-primary-btn">
+                Add to cart
+              </button>
+                    </div>
+                </div>
+
+                <div class="mantra-vertical-card">
+                    <div class="mantra-icon mantra-close-icon">
+                        <i class="fas fa-heart-circle"></i>
+                    </div>
+                    <div class="mantra-card-holder-image-v">
+                        <img class="mantra-vert-image" src="../assets/lighthouse.jpg" />
+                    </div>
+                    <div class="mantra-card-holder-text-vert">
+                        <div class="mantra-card-holder-text-content">
+                            <h2>I Came Upon a Lighthouse</h2>
+                            <h3>A Short Memoir of Life with Ratan Tata</h3>
+                            <div class="mantra-price-box">
+                                <span class="mantra-discount">Rs.300</span>
+                                <span class="mantra-original">Rs.400</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mantra-card-btn">
+                        <button class="mantra-button mantra-primary-btn">
+                Add to cart
+              </button>
+                    </div>
+                </div>
+                <div class="mantra-vertical-card">
+                    <div class="mantra-icon mantra-close-icon">
+                        <i class="fas fa-heart-circle"></i>
+                    </div>
+                    <div class="mantra-card-holder-image-v">
+                        <img class="mantra-vert-image" src="../assets/lighthouse.jpg" />
+                    </div>
+                    <div class="mantra-card-holder-text-vert">
+                        <div class="mantra-card-holder-text-content">
+                            <h2>I Came Upon a Lighthouse</h2>
+                            <h3>A Short Memoir of Life with Ratan Tata</h3>
+                            <div class="mantra-price-box">
+                                <span class="mantra-discount">Rs.300</span>
+                                <span class="mantra-original">Rs.400</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mantra-card-btn">
+                        <button class="mantra-button mantra-primary-btn">
+                Add to cart
+              </button>
+                    </div>
+                </div>
+                <div class="mantra-vertical-card">
+                    <div class="mantra-icon mantra-close-icon">
+                        <i class="fas fa-heart-circle"></i>
+                    </div>
+                    <div class="mantra-card-holder-image-v">
+                        <img class="mantra-vert-image" src="../assets/lighthouse.jpg" />
+                    </div>
+                    <div class="mantra-card-holder-text-vert">
+                        <div class="mantra-card-holder-text-content">
+                            <h2>I Came Upon a Lighthouse</h2>
+                            <h3>A Short Memoir of Life with Ratan Tata</h3>
+                            <div class="mantra-price-box">
+                                <span class="mantra-discount">Rs.300</span>
+                                <span class="mantra-original">Rs.400</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mantra-card-btn">
+                        <button class="mantra-button mantra-primary-btn">
+                Add to cart
+              </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <p>Created By Raghav Bang</p>
+    <div class="mantra-footer-center">
+        <a href="https://github.com/Raghav888 ">
+            <i class="fab fa-github  mantra-footer-icon"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/raghavbang/ ">
+            <i class="fab fa-linkedin-square  mantra-footer-icon"></i>
+        </a>
+    </div>
+    </div>
+</body>
+
+</html>
