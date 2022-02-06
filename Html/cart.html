@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Store</title>
+    <link rel="stylesheet" href="../Mantra-UI/component/component.css" />
+    <link rel="stylesheet" href="../css/cart.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <nav class="mantra-nav">
+        <div class="mantra-nav-title">
+            <a class="mantra-title" href="../index.html"> BookStore </a>
+        </div>
+        <div class="mantra-nav-search">
+            <input class="mantra-search-box mantra-textbox-classic mantra-highlight-box" placeholder="  Search" type="text " />
+            <button class="mantra-button mantra-primary-btn">
+          <i class="fa fa-search"></i> Search
+        </button>
+        </div>
+        <button class="mantra-button mantra-primary-btn login-btn">Login</button>
+
+        <div class="mantra-nav-footer">
+            <div class="mantra-badge">
+                <a class="mantra-menu-icon" href="#">
+                    <span class="mantra-icon">
+              <i class="fa fa-heart"></i>
+              <span class="mantra-count">0</span>
+                    </span>
+                </a>
+                <a class="mantra-menu-icon" href="./cart.html">
+                    <span class="mantra-icon">
+              <i class="fa fa-shopping-cart"></i>
+              <span class="mantra-count">1</span>
+                    </span>
+                    <span class="mantra-cart-button">Cart</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Main box -->
+    <div class="cart-container">
+        <div class="cart-title">
+            <h3>MY CART (1)</h3>
+        </div>
+        <div class="cart-box">
+            <div class="mantra-card-holder">
+                <div class="mantra-card-holder-image">
+                    <img class="mantra-card-image" src="../assets/lighthouse.jpg" />
+                </div>
+
+                <div class="mantra-card-holder-text">
+                    <h3>I Came Upon a Lighthouse</h3>
+                    <div class="price">
+                        <span class="mantra-discount">Rs.300 </span>
+                        <span class="mantra-original"> Rs.500</span>
+                    </div>
+                    <!-- Plus minus button -->
+
+                    <div class="plus-minus-input">
+                        <h5>Quantity:</h5>
+                        <div class="input-group-button minus-button">
+                            <button type="button" class="mantra-button mantra-primary-btn circle" data-quantity="minus" data-field="quantity">
+                  <i class="fa fa-minus" aria-hidden="true"></i>
+                </button>
+                        </div>
+                        <input class="mantra-textbox-classic mantra-highlight-box input-group-field" type="number" name="quantity" value="0" />
+                        <div class="input-group-button">
+                            <button type="button" class="mantra-button mantra-primary-btn circle" data-quantity="plus" data-field="quantity">
+                  <i class="fa fa-plus" aria-hidden="true"></i>
+                </button>
+                        </div>
+                    </div>
+
+                    <div class="mantra-card-btn">
+                        <button class="mantra-button mantra-primary-btn">
+                Remove from Cart
+              </button>
+                        <button class="mantra-button mantra-primary-btn">
+                Move to Wishlist
+              </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Order Details -->
+            <div class="price-detail">
+                <div class="mantra-text-card price-detail-box">
+                    <h3>Price Details</h3>
+                    <hr />
+                    <div class="price-breakup">
+                        <p>Price</p>
+                        <p>Rs. 400</p>
+                    </div>
+                    <div class="price-breakup">
+                        <p>Discount</p>
+                        <p>- Rs. 100</p>
+                    </div>
+                    <div class="price-breakup">
+                        <p>Delivery Charges</p>
+                        <p>Rs. 60</p>
+                    </div>
+                    <hr />
+                    <div class="price-breakup">
+                        <h3>TOTAL AMOUNT</h3>
+                        <h3>Rs. 360</h3>
+                    </div>
+                    <hr />
+                    <div class="price-breakup">
+                        <p>You will save Rs. 100 on this order</p>
+                    </div>
+                    <div class="price-breakup">
+                        <button class="mantra-button mantra-primary-btn">
+                Place Order
+              </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="mantra-footer-short">
+        <p>Created By Raghav Bang</p>
+        <div class="mantra-footer-center">
+            <a href="https://github.com/Raghav888 ">
+                <i class="fab fa-github mantra-footer-icon"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/raghavbang/ ">
+                <i class="fab fa-linkedin-square mantra-footer-icon"></i>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
