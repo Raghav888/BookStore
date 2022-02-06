@@ -126,7 +126,7 @@
     box-sizing: border-box;
     max-width: var(--text-overlay-maxwidth);
     padding: var(--padding-lg);
-    background-color: var(--secondary-color);
+    background-color: #a9a9a9;
     border-radius: var(--border-radius);
 }
 

@@ -14,3 +14,21 @@
 .mantra-footer-icon {
     color: black;
 }
+
+.mantra-footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-top: 5rem;
+    right: 0;
+    text-align: center;
+}
+
+.mantra-footer-short {
+    position: absolute;
+    margin-top: 5rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
