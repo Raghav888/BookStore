@@ -74,6 +74,14 @@ hr {
     font-size: 1.8rem;
 }
 
+.order-btn {
+    padding-left: 0px;
+}
+
+.btn-space {
+    margin-right: 2rem;
+}
+
 @media only screen and (max-width: 930px) {
     html {
         font-size: 55%;

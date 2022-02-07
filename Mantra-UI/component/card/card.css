@@ -42,6 +42,7 @@
 
 .mantra-card-btn {
     margin-top: var(--margin-top-btn);
+    padding: 0rem 2rem 1rem 2rem;
 }
 
 .mantra-original {
@@ -62,19 +63,16 @@
     position: relative;
     max-width: var(--card-vert-width-max);
     height: auto;
-    padding: 3rem;
     box-sizing: border-box;
     background-color: var(--txt-primary);
     border-radius: var(--border-radius);
-    box-shadow: var(--box-shadow-card);
 }
 
 .mantra-close-icon {
     position: absolute;
-    top: 2px;
-    right: 2px;
+    bottom: 0px;
+    right: 10px;
     margin-right: 0px;
-    padding-top: 0px;
     font-size: var(--txt-lg);
     color: var(--primary-color);
     cursor: pointer;
@@ -88,8 +86,12 @@
     border-radius: var(--border-radius);
     max-inline-size: 100%;
     block-size: auto;
-    height: var(--height-img);
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain;
+}
+
+.mantra-card-holder-text-vert {
+    padding: 1rem 2rem;
 }
 
 .mantra-badge-card {
