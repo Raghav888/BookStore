@@ -12,3 +12,5 @@
   - Sign-up
   - Login
   - Logout Button
+
+[![Demo Video](https://www.youtube.com/watch?v=kE8Or1qH9Z0/0.jpg)](https://www.youtube.com/watch?v=kE8Or1qH9Z0)
