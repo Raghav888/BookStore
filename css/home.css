@@ -21,7 +21,7 @@ body {
     margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 3rem;
     margin: 5rem 6rem 2rem 6rem;
 }
 
@@ -93,5 +93,8 @@ body {
 @media only screen and (max-width: 480px) {
     html {
         font-size: 40%;
+    }
+    .product-line {
+        justify-content: center;
     }
 }

@@ -71,4 +71,18 @@ body {
     html {
         font-size: 40%;
     }
+    .signup-box {
+        width: max-content;
+        position: relative;
+        background-color: white;
+        padding: 3rem;
+        left: 25%;
+        margin: 5rem 0 0 0;
+        font-size: 2rem;
+        border-radius: 1rem;
+    }
+    .text-box {
+        width: 20rem;
+        font-size: 2rem;
+    }
 }
