@@ -104,4 +104,17 @@ hr {
     html {
         font-size: 40%;
     }
+    .cart-box {
+        display: flex;
+        gap: 4rem;
+        margin-top: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .mantra-card-holder {
+        margin: 0 3rem;
+    }
+    .mantra-textbox-classic {
+        font-size: 2rem;
+    }
 }

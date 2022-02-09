@@ -82,4 +82,18 @@ body {
     html {
         font-size: 40%;
     }
+    .login-box {
+        width: max-content;
+        position: absolute;
+        background-color: white;
+        padding: 3rem;
+        top: 25%;
+        left: 20%;
+        font-size: 2rem;
+        border-radius: 1rem;
+    }
+    .text-box {
+        width: 20rem;
+        font-size: 2rem;
+    }
 }
